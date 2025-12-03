@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: rg.fr-par.scw.cloud/ilkilabs/nginx
+        image: ghcr.io/ataon29/nginx
         ports:
         - containerPort: 80
         volumeMounts:
